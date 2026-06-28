@@ -13,8 +13,13 @@
 
 let num="25" 
 
- let newnum= Number(num)+5;
+//  let newnum= Number(num)+5;
+ let newnum= parseInt(num)+5;
+
 
   console.log( newnum )
 
   console.log(typeof(newnum))
+
+//   Number() = strict conversion
+// parseInt() = extract an integer from text ,It stops when it reaches: , and returns what it successfully read. 
